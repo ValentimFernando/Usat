@@ -1,12 +1,13 @@
 import React from 'react'
 import Input from "../../components/Input";
 import Button from "../../components/Button";
-import { Container, ContainerForm, Form, Label } from './styles';
+import { Container, ContainerForm, Copy, Form, Label } from './styles';
 import { Link } from 'react-router-dom';
+import logo from '../../imagens/logo.png';
 
 const Login = () => {
   return (
-    <Container>
+    <Container>   
         <h2>Acesse sua conta</h2>
         <p>Entre com seu email e senha!</p>
         <ContainerForm>
@@ -19,6 +20,9 @@ const Login = () => {
                 <li><Link to="/cadastro"><span> Não tem cadastro? </span></Link></li>
             </Form>
         </ContainerForm>
+        <Copy>
+            <img src={logo} alt=""/>
+        </Copy>
     </Container>
   )
 }

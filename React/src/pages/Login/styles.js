@@ -34,4 +34,12 @@ export const Label = styled.div`
     font-weight: 500;
 
 `
+export const Copy = styled.div`
 
+margin-right: 20px;
+display: flex;
+align-items: center;
+justify-content: center;
+
+
+`

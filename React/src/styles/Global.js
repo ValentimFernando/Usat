@@ -15,10 +15,12 @@ export default createGlobalStyle`
         --green: #98D731;
         --lime: #CCFF66;
         --white: #FFF;
+        --light-gray: #E8E9EB;
         --brown: #AD682F;
+        --moss-green:#597D1C;
         --dark-green:#02AA5D;
         --cyan: #4ACCAA;
-        --orange: #FFAFF22; //??????
+        --orange: #FFAF22; 
 
 
     }

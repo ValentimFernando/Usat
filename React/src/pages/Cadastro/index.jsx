@@ -1,6 +1,7 @@
 import React from 'react'
 import Input from "../../components/Input";
 import Button from "../../components/Button";
+import Footer from "../../components/Footer";
 import { Container, ContainerForm, Form, Label } from './styles';
 
 const Cadastro = () => {
